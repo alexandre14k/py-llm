@@ -26,6 +26,22 @@ Focuses on clarity, modularity, and learnability, it is ideal for
 experimenting with Web Gui programming, streaming responses,
 and event‑driven architecture.
 
+## Screenshots
+
+Running on Ubuntu 24.04 x86_64
+---
+
+- first we attempt to log in with our password
+
+![attempting login](doc/login.png)
+
+---
+
+- second we chat with the model and eval of python code block
+
+![chat with llm and eval](doc/chat.png)
+
+
 ## Features
 - fast prototype with python
 - works offline once venv setup in place
@@ -46,6 +62,15 @@ only for python with **eval** button
 - displays empirical stats on context token usage
 - limits session per number of questions (configurable)
 and maximum context token capacity
+- can be used remotely over the lan
+
+## Not implemented
+- if model is missing then run crash occurs
+- multi user async request queue
+- responsive ui for mobile screens
+- accessibility
+  - color contrast
+  - read text on demand
 
 ## Usage
 
@@ -108,6 +133,7 @@ llama_kv_cache_iswa: using full-size SWA cache (ref: https://github.com/ggml-org
 
 # License
 -------
-Copyright (c) 2026 alexander14k28@gmail.com
 
 See [LICENSE](LICENSE) for the license governing this project.
+
+Copyright (c) 2026 alexander14k28@gmail.com
