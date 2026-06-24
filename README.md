@@ -43,6 +43,9 @@ and event‑driven architecture.
 - supports model tweaking, stream mode, instructions
 - allows markdown code block evaluation 
 only for python with **eval** button
+- displays empirical stats on context token usage
+- limits session per number of questions (configurable)
+and maximum context token capacity
 
 ## Usage
 
